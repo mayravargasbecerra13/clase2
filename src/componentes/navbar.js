@@ -1,11 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import navbar from './componentes/navbar';
+import React from "react";
 
-
-function App() {
-  return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+const navbar = () => {
+    return (
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +33,5 @@ function App() {
       </div>
     </div>
   </nav>
-  );
+    )
 }
-
-export default App;
