@@ -1,12 +1,15 @@
 import { useReducer } from "react";
 import { shoppingInitialState, ItemListReducer } from "../redeucer/ItemListReducer";
 import ProductosItem from "./ProductoItem";
+import { TYPES } from "../accion/ItemListAction";
+import CartItem from "../componentes/CartItem"
 
 const ItemList = () => {
     const [state, dispatch] = useReducer(ItemListReducer, shoppingInitialState);
     const{productos, cart} = state;
     const addToCart = (id) => {
-        console.log(id);
+        //console.log(id);
+        dispatch({type:TYPES.ADD_TO_CART,payload:id})
     };
 
     const delFromCart = () => {};
@@ -19,8 +22,13 @@ const ItemList = () => {
           <div className="box grid-responsive">
               {productos.map((productos) =>( <ProductosItem key={productos.id} data={productos} addToCart={addToCart}/>))}
           </div>
-          <h3>Carrito</h3>
-          <div className="box"></div>
+          
+          <div className="box">
+              <button onClick={clearCart}>Limpiar carrito</button>
+              {
+                  cart.map((item, index) => <CartItem  key = {index}data={item} delFromCart={delFromCart}/>)
+              }
+          </div>
      </div>
      
   )

@@ -2,7 +2,7 @@
 export default function ItemListContainer(props) {
     return (
         <div>
-            <h1>Hello {props.greeting} !! </h1>
+            <h1>Elemento {props.greeting} !! </h1>
         </div>
     )
 }

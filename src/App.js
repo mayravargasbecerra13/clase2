@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavbarComponent />
-      <ItemListContainer greeting={'Mayra'} />
+      <ItemListContainer greeting={'Carrito'} />
       <ItemCountComponent props={[]}/>
       <ItemList/>
       
