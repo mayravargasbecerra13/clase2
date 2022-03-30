@@ -4,7 +4,7 @@ export const contadorinitialState= {Contador: 0};
 
 export const contadorinit = (initialState) =>{
     return{
-        Contador:initialState.Contador + 100,
+        Contador:initialState.Contador + 0,
         }
 }
 
