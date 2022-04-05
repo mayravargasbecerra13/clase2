@@ -1,7 +1,7 @@
+
 import { useReducer } from "react";
 import { TYPES } from "../accion/contadorActions";
 import { contadorinit, contadorinitialState, contadorreducers } from "../redeucer/contadorreducers";
-
 
 
 const Contador = () => {
@@ -35,6 +35,8 @@ const Contador = () => {
 }
 
 export default Contador;
+
+
 
 
 

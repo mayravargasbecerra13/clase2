@@ -7,9 +7,9 @@ export const shoppingInitialState = {
       nombre: "Jean",
       img:  'https://th.bing.com/th/id/OIP.kpb5O6SqMHAVSFWxpr4NdgHaKO?pid=ImgDet&rs=1',
       precio: 70.0,
-      color: "Azul oscuro",
+      color: "Negro",
       codigo: 102030,
-      category: 'deportivo'
+     
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export const shoppingInitialState = {
       precio: 90.0,
       color: "Amarilla",
       codigo: 104050,
-      category: 'elegante'
+     
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ export const shoppingInitialState = {
       precio: 65.0,
       color: "Rosado",
       codigo: 106070,
-      category: 'elegante'
+      
     },
     {
        id: 4, 
@@ -36,7 +36,7 @@ export const shoppingInitialState = {
        precio: 80.0, 
        color: "Azul Oscuro", 
        codigo: 108090 ,
-       category: 'deportivo'
+      
     },
     { 
       id: 5, 
@@ -45,7 +45,7 @@ export const shoppingInitialState = {
       precio: 110.0, 
       color: "Rojo", 
       codigo: 101001,
-      category: 'deportivo'
+      
     },
     { 
       id: 6,
@@ -54,7 +54,7 @@ export const shoppingInitialState = {
       precio: 100.0, 
       color: "Cafe", 
       codigo: 101002,
-      category: 'elegante'
+     
     },
     {
       id: 7,
@@ -63,25 +63,25 @@ export const shoppingInitialState = {
       precio: 170.0,
       color: "Azul",
       codigo: 101003,
-      category: 'deportivo'
+      
     },
     { 
       id: 8,
        nombre: "Blusa",
-       img: 'https://th.bing.com/th/id/OIP.D36nyqIrEnA-hjcERSb1_QHaKX?pid=ImgDet&rs=1',
+       img: 'https://ae01.alicdn.com/kf/He4c9dff2ae6a4be090338623c9cc8c23L.jpg',
        precio: 65.0, 
        color: "Blanca", 
        codigo: 101004,
-       category: 'elegante'
+       
     },
     {
       id: 9,
       nombre: "Crop tops",
-      img: 'https://i.pinimg.com/originals/6b/eb/94/6beb94fd52e1bf72626259dc579fdb45.jpg',
+      img: 'https://th.bing.com/th/id/R.2568f44d097ac6646ff6b6afd738f1f9?rik=c2O35tLy65WnlQ&riu=http%3a%2f%2fwww.larevista.com.ec%2fsites%2fdefault%2ffiles%2fimagecache%2fimagengaleriagrande%2fmo2_17.jpg&ehk=5OiO8dCx8JEcWeBu247zxp%2bKkgr0Ya9gvWVK55GSeZg%3d&risl=&pid=ImgRaw&r=0',
       precio: 50.0,
-      color: "Negro",
+      color: "Dorado",
       codigo: 101005,
-      category: 'elegante'
+      
     },
     { 
       id: 10, 
@@ -90,7 +90,7 @@ export const shoppingInitialState = {
       precio: 130.0, 
       color: "Gris", 
       codigo: 101006,
-      category: 'elegante'
+      categoria: 'elegante'
     },
     {
       id: 11,
@@ -99,7 +99,7 @@ export const shoppingInitialState = {
       precio: 45.0,
       color: "Verde pasto",
       codigo: 101007,
-      category: 'deportivo'
+      
     },
     {
       id: 12,
@@ -108,7 +108,7 @@ export const shoppingInitialState = {
       precio: 70.0,
       color: "Azul cielo",
       codigo: 101008,
-      category: 'elegante'
+      
     },
   ],
   cart: [],

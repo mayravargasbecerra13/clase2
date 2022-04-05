@@ -20,8 +20,8 @@ export default function NavbarComponent ()  {
           </li>
         </ul>
         <nav className="tres-enlaces">
-      <Link to="/category/elegante" className="enlaces">Elegante</Link>
-      <Link to="/category/deportivo" className="enlaces">Deportivo</Link>
+      <Link to="/contacto" className="enlaces">Contacto</Link>
+      <Link to="/nosotros" className="enlaces">Nosotros</Link>
       {/*<Link to="/cuenta" className="enlaces">Crea tu cuenta</Link>
      <Link to="/ingresa" className="enlaces">Ingresa</Link>
       <Link to="/compras" className="enlaces">Mis compras</Link>*/}

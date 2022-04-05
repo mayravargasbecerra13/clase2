@@ -3,7 +3,7 @@ import { shoppingInitialState, ItemListReducer } from "../redeucer/ItemListReduc
 import ProductosItem from "./ProductoItem";
 import { TYPES } from "../accion/ItemListAction";
 import CartItem from "../componentes/CartItem"
-import { useParams } from "react-router-dom";
+
 
 const ItemList = () => {
     const [state, dispatch] = useReducer(ItemListReducer, shoppingInitialState);
@@ -15,9 +15,10 @@ const ItemList = () => {
 
     const delFromCart = () => {};
 
-    const clearCart = () => {};
-    const {categoryId} = useParams()
-    console.log(categoryId)
+    const clearCart = () => {
+        dispatch({type: TYPES.CLEAR_CART})
+    };
+    
     
   
   return(

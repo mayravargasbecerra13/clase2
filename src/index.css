@@ -32,3 +32,10 @@ body {
     display: block;
     margin: auto;
 }
+
+.agregar{
+  border-radius: 10px;
+  background-color: yellow;
+  border: none;
+  font-size: 19px;
+}
