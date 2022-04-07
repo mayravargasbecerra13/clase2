@@ -1,11 +1,15 @@
-import { useReducer } from "react";
+import {  useReducer } from "react";
 import { shoppingInitialState, ItemListReducer } from "../redeucer/ItemListReducer";
-import ProductosItem from "./ProductoItem";
+import ItemDetail from "./ItemDetail";
 import { TYPES } from "../accion/ItemListAction";
 import CartItem from "../componentes/CartItem"
 
 
-const ItemList = () => {
+
+export const ItemList = () => {
+    
+    
+
     const [state, dispatch] = useReducer(ItemListReducer, shoppingInitialState);
     const{productos, cart} = state;
     const addToCart = (id) => {
@@ -26,7 +30,7 @@ const ItemList = () => {
          <h2>Carrito de compras</h2>
           <h3>Productos</h3>
           <div className="box grid-responsive">
-              {productos.map((productos) =>(<ProductosItem key={productos.id} data={productos} addToCart={addToCart}/>))}
+              {productos.map((productos) =>(<ItemDetail key={productos.id} data={productos} addToCart={addToCart}/>))}
           </div>
           
           <div className="box">

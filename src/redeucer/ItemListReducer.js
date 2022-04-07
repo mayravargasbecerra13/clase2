@@ -58,8 +58,8 @@ export const shoppingInitialState = {
     },
     {
       id: 7,
-      nombre: "Zapatillas",
-      img: 'https://th.bing.com/th/id/OIP.xs4gU_cQyFqOYy0zUbzduAHaI-?pid=ImgDet&rs=1',
+      nombre: "Buzo",
+      img: 'https://static.dafiti.com.br/p/Nike-Sportswear-Moletom-Nike-Sportswear-Club-Crew-Swoosh-Azul-2130-4429361-4-zoom.jpg',
       precio: 170.0,
       color: "Azul",
       codigo: 101003,

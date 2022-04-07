@@ -38,4 +38,24 @@ body {
   background-color: yellow;
   border: none;
   font-size: 19px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.select{
+  background-color: blue;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cart-widget{
+  font-size: 40px;
 }

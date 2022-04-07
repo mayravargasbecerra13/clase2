@@ -1,7 +1,24 @@
-import ItemCount from "./ItemCount";
+import {  useState } from "react";
 
-const ProductosItem = ({data,addToCart}) => {
+import Select from "./Select";
+
+const options = [
+    {value: 'L', text: 'Large'},
+    {value: 'M', text: 'Medium'},
+    {value: 'S', text: 'Small'},
+]
+
+console.log()
+const ItemDetail = ({data,addToCart}) => {
+
+
+    
+    const [talla, setColor] = useState('L')
+    console.log(talla)
     let {id, nombre, img, precio, color, codigo, } = data;
+
+  
+
     return (
         <div style={{border:"thin solid gray", padding:"1rem"}}>
              <h4>{nombre}</h4>
@@ -10,10 +27,13 @@ const ProductosItem = ({data,addToCart}) => {
             <h6>{color}</h6>
             <h6>{codigo}</h6>
            
- 
+         <Select
+         options ={options}
+         onSelect = {setColor}
+         />
             
             <button className="agregar" onClick={()=> addToCart(id)}>Agregar al carrito</button>
         </div>
     )
 }
-export default ProductosItem
+export default ItemDetail

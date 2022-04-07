@@ -5,12 +5,18 @@ import ItemCountComponent from './componentes/ItemCount'
 import ItemList from './componentes/ItemList';
 import Contacto from './componentes/Contacto';
 import Nosotros from './componentes/Nosotros';
-import {BrowserRouter, Routes, Route, Navigate, Router} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+
 
 
 
 function App() {
+
+
+
+
   return (
+  
     <BrowserRouter>
 
       <NavbarComponent />
@@ -27,6 +33,7 @@ function App() {
       </Routes>
       
     </BrowserRouter>
+    
   );
 }
 
