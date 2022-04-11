@@ -35,15 +35,18 @@ body {
 
 .agregar{
   border-radius: 10px;
-  background-color: yellow;
+  background-color: #a0992e;
+  color: white;
   border: none;
   font-size: 19px;
   display: block;
-  margin: auto;
+  margin: 10px auto;
   width: 100%;
+  
 }
 .select{
-  background-color: blue;
+  background-color: #1a1f37;
+  color: white;
   text-align: center;
   display: block;
   margin: auto;
@@ -56,6 +59,21 @@ body {
   justify-content: space-around;
 }
 
-.cart-widget{
-  font-size: 40px;
+.limpiar{
+  background-color: #90262d;
+  border-radius: 30px;
+  color: white;
+  border: white;
+  width: 10%;
+  height: 30px;
+  margin: 10px;
+}
+.eliminar{
+  background-color: #90262d;
+  border-radius: 30px;
+  color: white;
+  border: white;
+  width: 10%;
+  height: 30px;
+  margin: 10px;
 }
