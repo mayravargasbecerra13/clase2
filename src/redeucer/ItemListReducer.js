@@ -38,7 +38,7 @@ export const shoppingInitialState = {
       id: 5,
       nombre: "Buzo",
       img: "https://static.dafiti.com.co/p/levis-2117-2398911-1-product.jpg",
-      precio: 110.0,
+      precio: 80.0,
       color: "Rojo, negro, amarillo y azul",
       codigo: 101001,
     },
@@ -52,7 +52,7 @@ export const shoppingInitialState = {
     },
     {
       id: 7,
-      nombre: "Chaqueta de cuero para cualquier tipo de ocasión",
+      nombre: "Chaqueta de cuero ",
       img: "https://th.bing.com/th/id/OIP.oUfCgY_HJ2bPRTnf8zM5-QAAAA?pid=ImgDet&rs=1",
       precio: 170.0,
       color: "Negra",
