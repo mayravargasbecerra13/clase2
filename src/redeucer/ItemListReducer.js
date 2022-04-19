@@ -9,6 +9,7 @@ export const shoppingInitialState = {
       precio: 70.0,
       color: "Negro",
       codigo: 102030,
+      category: "Elegante"
     },
     {
       id: 2,
@@ -17,6 +18,7 @@ export const shoppingInitialState = {
       precio: 90.0,
       color: "Amarilla",
       codigo: 104050,
+      category: "Deportivo"
     },
     {
       id: 3,
@@ -25,6 +27,7 @@ export const shoppingInitialState = {
       precio: 65.0,
       color: "Rosado",
       codigo: 106070,
+      category: "Elegante"
     },
     {
       id: 4,
@@ -33,6 +36,7 @@ export const shoppingInitialState = {
       precio: 80.0,
       color: "Azul y negro",
       codigo: 108090,
+      category: "Elegante"
     },
     {
       id: 5,
@@ -41,6 +45,7 @@ export const shoppingInitialState = {
       precio: 80.0,
       color: "Rojo, negro, amarillo y azul",
       codigo: 101001,
+      category: "Deportivo"
     },
     {
       id: 6,
@@ -49,6 +54,7 @@ export const shoppingInitialState = {
       precio: 100.0,
       color: "Cafe",
       codigo: 101002,
+      category: "Elegante"
     },
     {
       id: 7,
@@ -57,6 +63,7 @@ export const shoppingInitialState = {
       precio: 170.0,
       color: "Negra",
       codigo: 101003,
+      category: "Deportivo"
     },
     {
       id: 8,
@@ -65,6 +72,7 @@ export const shoppingInitialState = {
       precio: 65.0,
       color: "Blanca",
       codigo: 101004,
+      category: "Elegante"
     },
     {
       id: 9,
@@ -73,6 +81,7 @@ export const shoppingInitialState = {
       precio: 50.0,
       color: "Negro, rojo, azul y verde",
       codigo: 101005,
+      category: "Deportivo"
     },
     {
       id: 10,
@@ -81,6 +90,7 @@ export const shoppingInitialState = {
       precio: 130.0,
       color: "Gris",
       codigo: 101006,
+      category: "Elegante"
       
     },
     {
@@ -90,6 +100,7 @@ export const shoppingInitialState = {
       precio: 45.0,
       color: "Rosa, verde oscuro y café",
       codigo: 101007,
+      category: "Deportivo"
     },
     {
       id: 12,
@@ -98,6 +109,7 @@ export const shoppingInitialState = {
       precio: 70.0,
       color: "Azul",
       codigo: 101008,
+      category: "Elegante"
     },
   ],
   cart: [],

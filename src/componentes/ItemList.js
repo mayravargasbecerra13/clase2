@@ -1,8 +1,5 @@
 import { useReducer } from "react";
-import {
-  shoppingInitialState,
-  ItemListReducer,
-} from "../redeucer/ItemListReducer";
+import { shoppingInitialState, ItemListReducer,} from "../redeucer/ItemListReducer";
 import ItemDetail from "./ItemDetail";
 import { TYPES } from "../accion/ItemListAction";
 import CartItem from "../componentes/CartItem";
