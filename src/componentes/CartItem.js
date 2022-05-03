@@ -1,5 +1,5 @@
-const CartItem = ({ data, delFromCart }) => {
-  let { id, nombre, img, precio, color, codigo, quantity } = data;
+export const CartItem = ({ data, delFromCart }) => {
+  let { id, nombre, img, precio, color, codigo, category, quantity } = data;
   return (
     <div>
       <h4>{nombre}</h4>
@@ -9,9 +9,12 @@ const CartItem = ({ data, delFromCart }) => {
       </h5>
       <h6>{color}</h6>
       <h6>{codigo}</h6>
+      <p>{category}</p>
 
       <button className="eliminar" onClick={() => delFromCart(id)}>Eliminar uno</button>
       <button className="eliminar" onClick={() => delFromCart(id, true)}>Eliminar todos</button>
+     
+      
     </div>
   );
 };

@@ -11,8 +11,8 @@ export default function NavbarComponent ()  {
       
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
        <nav className="tres-enlaces">
-      <Link to="/contacto" className="enlaces">Contacto</Link>
-      <Link to="/nosotros" className="enlaces">Nosotros</Link>
+      <Link to="/elegante" className="enlaces">Elegante</Link>
+      <Link to="/deportivo" className="enlaces">Deportivo</Link>
       <CardtWidgetComponent/>
     
     </nav>

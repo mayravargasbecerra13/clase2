@@ -5,20 +5,19 @@ import { db } from "../firebase/config"
 import { collection, getDocs, query, where } from "firebase/firestore"
 
  
-export const ItemListContainer = () => {
+export const ItemListContainer = ({category,}) => {
 
     
     const [productos, setProductos] = useState([])
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
 
     const {categoryId} = useParams()
 
     useEffect( () => {
-        setLoading(true)
-
         
         const productosRef = collection(db, 'productos')
-        const q = categoryId ? query(productosRef, where("category", "==", categoryId)) : productosRef
+
+        const q = productosRef
       
         getDocs(q)
             .then((resp) => {
@@ -35,13 +34,14 @@ export const ItemListContainer = () => {
 
     }, [categoryId])
 
-
+    const productSelected = category ? productos.filter(item => item.category === category) : productos
+    
     return (
         <>
             {
                 loading 
                     ? <h2>Loading...</h2> 
-                    : <ItemList productos={productos}/>
+                    : <ItemList categoryWithProducts={productSelected}/>
             } 
         </>
     )
